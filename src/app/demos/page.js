@@ -16,7 +16,7 @@ function Page() {
     <div className="h-full flex flex-col justify-center items-center w-1/2 mx-auto mt-10">
       <Heading heading={`Congrats, ${store.name}! Your ticket is ready.`} />
       <p className="text-lg text-center">
-        We've emailed your ticket so <span>{store.email}</span>.com and will l
+        We have emailed your ticket so <span>{store.email}</span>.com and will l
         send updates in the run up to the event.
       </p>
       <div className="border-2 px-14 py-8 rounded-xl flex flex-col gap-10 bg-[#2222228c] mt-14">
