@@ -27,7 +27,7 @@ function Page() {
           <div>
             <h1 className="text-lg">Coding Conf</h1>
             <p className="text-sm">
-              <span>Dec 21,2020</span>|<span>America TN</span>
+              <span>Dec 21-2020</span>|<span>America TN</span>
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Input from "@/components/Input";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
-function page() {
+function Page() {
   const router = useRouter()
   const [userDetails, setUserDetails] = useState({
     name: "",
@@ -27,7 +27,7 @@ function page() {
     <div className="h-full flex flex-col justify-center items-center w-1/2 mx-auto mt-10">
       <Heading heading="Your Journey to Coding Conf 2025 Starts Here!" />
       <p className="text-lg text-center">
-        Secure your spot at next year's biggest coding conference.
+        Secure your spot at next years biggest coding conference.
       </p>
       <form onSubmit={handleSubmit}>
         <UploadMonitor />
@@ -53,4 +53,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
