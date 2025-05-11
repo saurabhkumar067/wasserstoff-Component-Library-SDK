@@ -3,7 +3,7 @@ import Heading from "@/components/Heading";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-function page() {
+function Page() {
   const [store, setStore] = useState({});
   useEffect(() => {
     const storedUserDetails = localStorage.getItem("userDetails");
@@ -47,4 +47,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
